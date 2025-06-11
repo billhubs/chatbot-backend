@@ -1,0 +1,535 @@
+2025-06-07 10:31:42,222 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-07 10:31:42,223 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 10:31:42,225 - INFO -  * Restarting with stat
+2025-06-07 10:31:43,019 - WARNING -  * Debugger is active!
+2025-06-07 10:31:43,053 - INFO -  * Debugger PIN: 728-079-941
+2025-06-07 10:34:33,991 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-07 10:34:33,991 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 10:34:33,993 - INFO -  * Restarting with stat
+2025-06-07 10:34:34,679 - WARNING -  * Debugger is active!
+2025-06-07 10:34:34,707 - INFO -  * Debugger PIN: 728-079-941
+2025-06-07 10:46:43,657 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-07 10:46:43,657 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 10:46:43,660 - INFO -  * Restarting with stat
+2025-06-07 10:46:45,800 - WARNING -  * Debugger is active!
+2025-06-07 10:46:45,931 - INFO -  * Debugger PIN: 728-079-941
+2025-06-07 11:02:35,247 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-07 11:02:35,247 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 11:02:35,249 - INFO -  * Restarting with stat
+2025-06-07 11:02:35,797 - WARNING -  * Debugger is active!
+2025-06-07 11:02:35,807 - INFO -  * Debugger PIN: 728-079-941
+2025-06-07 11:08:21,703 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-07 11:08:21,703 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 11:08:21,705 - INFO -  * Restarting with stat
+2025-06-07 11:08:22,284 - WARNING -  * Debugger is active!
+2025-06-07 11:08:22,295 - INFO -  * Debugger PIN: 728-079-941
+2025-06-08 00:00:06,479 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-08 00:00:06,480 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-08 00:00:06,482 - INFO -  * Restarting with stat
+2025-06-08 00:00:07,554 - WARNING -  * Debugger is active!
+2025-06-08 00:00:07,573 - INFO -  * Debugger PIN: 728-079-941
+2025-06-08 00:04:21,238 - INFO - 127.0.0.1 - - [08/Jun/2025 00:04:21] "[35m[1mGET /reservations/ HTTP/1.1[0m" 500 -
+2025-06-08 00:28:24,625 - INFO - 127.0.0.1 - - [08/Jun/2025 00:28:24] "[35m[1mGET /reservations/ HTTP/1.1[0m" 500 -
+2025-06-08 00:44:04,992 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-08 00:44:05,741 - INFO -  * Restarting with stat
+2025-06-08 00:44:08,352 - WARNING -  * Debugger is active!
+2025-06-08 00:44:08,388 - INFO -  * Debugger PIN: 728-079-941
+2025-06-08 00:44:35,744 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-08 00:44:36,057 - INFO -  * Restarting with stat
+2025-06-08 00:44:37,405 - WARNING -  * Debugger is active!
+2025-06-08 00:44:37,442 - INFO -  * Debugger PIN: 728-079-941
+2025-06-08 00:47:28,659 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-08 00:47:28,861 - INFO -  * Restarting with stat
+2025-06-08 00:47:30,681 - WARNING -  * Debugger is active!
+2025-06-08 00:47:30,705 - INFO -  * Debugger PIN: 728-079-941
+2025-06-08 00:51:08,117 - INFO - 127.0.0.1 - - [08/Jun/2025 00:51:08] "[35m[1mGET /reservations/ HTTP/1.1[0m" 500 -
+2025-06-08 00:55:19,651 - INFO - 127.0.0.1 - - [08/Jun/2025 00:55:19] "[35m[1mGET /reservations/ HTTP/1.1[0m" 500 -
+2025-06-08 01:02:14,403 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-08 01:02:15,036 - INFO -  * Restarting with stat
+2025-06-08 01:02:16,573 - WARNING -  * Debugger is active!
+2025-06-08 01:02:16,588 - INFO -  * Debugger PIN: 728-079-941
+2025-06-08 01:06:03,872 - ERROR - Error in get_reservations: Traceback (most recent call last):
+  File "/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py", line 422, in get_reservations
+    conn = sqlite3.connect('backend/database/reservations.db')
+sqlite3.OperationalError: unable to open database file
+
+2025-06-08 01:06:03,876 - INFO - 127.0.0.1 - - [08/Jun/2025 01:06:03] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-08 01:07:27,965 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-08 01:07:28,733 - INFO -  * Restarting with stat
+2025-06-08 20:32:21,154 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.208.129.35:5000
+2025-06-08 20:32:21,155 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-08 20:32:21,157 - INFO -  * Restarting with stat
+2025-06-08 20:32:23,536 - WARNING -  * Debugger is active!
+2025-06-08 20:32:23,570 - INFO -  * Debugger PIN: 728-079-941
+2025-06-08 21:02:59,734 - INFO - User test_user sent: halo
+2025-06-08 21:02:59,747 - INFO - 127.0.0.1 - - [08/Jun/2025 21:02:59] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:23:32,469 - INFO - User user sent: 1
+2025-06-08 21:23:32,476 - INFO - 127.0.0.1 - - [08/Jun/2025 21:23:32] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:23:41,943 - INFO - User user sent: pesan reguler Malang-juanda
+2025-06-08 21:23:41,964 - INFO - 127.0.0.1 - - [08/Jun/2025 21:23:41] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:24:03,964 - INFO - User user sent: pesan reguler malang-juanda
+2025-06-08 21:24:03,973 - INFO - 127.0.0.1 - - [08/Jun/2025 21:24:03] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:24:10,652 - INFO - User user sent: billy tian sunarto
+2025-06-08 21:24:10,655 - INFO - 127.0.0.1 - - [08/Jun/2025 21:24:10] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:24:30,627 - INFO - User user sent: 1
+2025-06-08 21:24:30,632 - INFO - 127.0.0.1 - - [08/Jun/2025 21:24:30] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:24:36,426 - INFO - User user sent: 085233496932
+2025-06-08 21:24:36,433 - INFO - 127.0.0.1 - - [08/Jun/2025 21:24:36] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:24:43,993 - INFO - User user sent: Jl. Candi Agung
+2025-06-08 21:24:43,994 - INFO - 127.0.0.1 - - [08/Jun/2025 21:24:43] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:24:52,418 - INFO - User user sent: Bandara Juanda
+2025-06-08 21:24:52,420 - INFO - 127.0.0.1 - - [08/Jun/2025 21:24:52] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:24:57,417 - INFO - User user sent: QZ323
+2025-06-08 21:24:57,419 - INFO - 127.0.0.1 - - [08/Jun/2025 21:24:57] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:25:02,534 - INFO - User user sent: AirAsia
+2025-06-08 21:25:02,534 - INFO - 127.0.0.1 - - [08/Jun/2025 21:25:02] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:25:39,446 - INFO - User user sent: 04.00
+2025-06-08 21:25:39,447 - INFO - 127.0.0.1 - - [08/Jun/2025 21:25:39] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:25:45,071 - INFO - User user sent: 04:00
+2025-06-08 21:25:45,075 - INFO - 127.0.0.1 - - [08/Jun/2025 21:25:45] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:25:54,201 - INFO - User user sent: 2025-06-30
+2025-06-08 21:25:54,203 - INFO - 127.0.0.1 - - [08/Jun/2025 21:25:54] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:26:40,778 - INFO - User user sent: konfirmasi
+2025-06-08 21:26:41,644 - INFO - 127.0.0.1 - - [08/Jun/2025 21:26:41] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:26:57,235 - INFO - User user sent: selesai
+2025-06-08 21:26:57,236 - INFO - 127.0.0.1 - - [08/Jun/2025 21:26:57] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:27:07,498 - INFO - User user sent: 3
+2025-06-08 21:27:07,498 - INFO - 127.0.0.1 - - [08/Jun/2025 21:27:07] "POST /chat HTTP/1.1" 200 -
+2025-06-08 21:27:26,479 - INFO - User user sent: KR-0A3CC9
+2025-06-08 21:27:26,488 - INFO - 127.0.0.1 - - [08/Jun/2025 21:27:26] "POST /chat HTTP/1.1" 200 -
+2025-06-09 00:20:45,174 - INFO - User test_user sent: halo
+2025-06-09 00:20:45,201 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:45] "POST /chat HTTP/1.1" 200 -
+2025-06-09 00:20:58,857 - INFO - User test_user sent: pesan charter drop malang-juanda
+2025-06-09 00:20:58,867 - INFO - 127.0.0.1 - - [09/Jun/2025 00:20:58] "POST /chat HTTP/1.1" 200 -
+2025-06-09 00:21:25,539 - INFO - User test_user sent: Billy Tian Sunarto
+2025-06-09 00:21:25,540 - INFO - 127.0.0.1 - - [09/Jun/2025 00:21:25] "POST /chat HTTP/1.1" 200 -
+2025-06-09 00:22:43,383 - INFO - User test_user sent: 7 orang
+2025-06-09 00:22:43,391 - INFO - 127.0.0.1 - - [09/Jun/2025 00:22:43] "POST /chat HTTP/1.1" 200 -
+2025-06-09 00:23:10,930 - INFO - User test_user sent: 085233496932
+2025-06-09 00:23:10,974 - INFO - 127.0.0.1 - - [09/Jun/2025 00:23:10] "POST /chat HTTP/1.1" 200 -
+2025-06-09 00:23:31,080 - INFO - User test_user sent: Jl. Candi No.2
+2025-06-09 00:23:31,080 - INFO - 127.0.0.1 - - [09/Jun/2025 00:23:31] "POST /chat HTTP/1.1" 200 -
+2025-06-09 00:23:40,548 - INFO - User test_user sent: Bandara Juanda
+2025-06-09 00:23:40,548 - INFO - 127.0.0.1 - - [09/Jun/2025 00:23:40] "POST /chat HTTP/1.1" 200 -
+2025-06-09 00:23:49,022 - INFO - User test_user sent: QZ323
+2025-06-09 00:23:49,023 - INFO - 127.0.0.1 - - [09/Jun/2025 00:23:49] "POST /chat HTTP/1.1" 200 -
+2025-06-09 00:23:57,909 - INFO - User test_user sent: AirAsia
+2025-06-09 00:23:57,910 - INFO - 127.0.0.1 - - [09/Jun/2025 00:23:57] "POST /chat HTTP/1.1" 200 -
+2025-06-09 00:24:09,935 - INFO - User test_user sent: 07:30
+2025-06-09 00:24:09,939 - INFO - 127.0.0.1 - - [09/Jun/2025 00:24:09] "POST /chat HTTP/1.1" 200 -
+2025-06-09 00:24:27,466 - INFO - User test_user sent: 2025-08-15
+2025-06-09 00:24:27,471 - INFO - 127.0.0.1 - - [09/Jun/2025 00:24:27] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:13:49,429 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.9:5000
+2025-06-09 11:13:49,431 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 11:13:49,433 - INFO -  * Restarting with stat
+2025-06-09 11:13:50,091 - WARNING -  * Debugger is active!
+2025-06-09 11:13:50,109 - INFO -  * Debugger PIN: 728-079-941
+2025-06-09 11:16:43,868 - INFO - 127.0.0.1 - - [09/Jun/2025 11:16:43] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 11:16:43,885 - INFO - User user sent: halo
+2025-06-09 11:16:43,886 - INFO - 127.0.0.1 - - [09/Jun/2025 11:16:43] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:18:21,876 - INFO - 127.0.0.1 - - [09/Jun/2025 11:18:21] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 11:18:21,890 - INFO - User user sent: halo
+2025-06-09 11:18:21,891 - INFO - 127.0.0.1 - - [09/Jun/2025 11:18:21] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:20:13,783 - INFO - 127.0.0.1 - - [09/Jun/2025 11:20:13] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 11:20:13,801 - INFO - User user sent: halo
+2025-06-09 11:20:13,813 - INFO - 127.0.0.1 - - [09/Jun/2025 11:20:13] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:28:57,392 - INFO - 127.0.0.1 - - [09/Jun/2025 11:28:57] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 11:28:57,401 - INFO - User user sent: halo
+2025-06-09 11:28:57,402 - INFO - 127.0.0.1 - - [09/Jun/2025 11:28:57] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:29:01,086 - INFO - 127.0.0.1 - - [09/Jun/2025 11:29:01] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-09 11:29:08,488 - INFO - 127.0.0.1 - - [09/Jun/2025 11:29:08] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-09 11:30:36,061 - INFO - 127.0.0.1 - - [09/Jun/2025 11:30:36] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 11:30:36,065 - INFO - User user sent: halo
+2025-06-09 11:30:36,067 - INFO - 127.0.0.1 - - [09/Jun/2025 11:30:36] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:30:42,404 - INFO - 127.0.0.1 - - [09/Jun/2025 11:30:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 11:30:42,496 - INFO - User user sent: halo
+2025-06-09 11:30:42,497 - INFO - 127.0.0.1 - - [09/Jun/2025 11:30:42] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:30:54,493 - INFO - 127.0.0.1 - - [09/Jun/2025 11:30:54] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 11:30:54,496 - INFO - User user sent: halo
+2025-06-09 11:30:54,496 - INFO - 127.0.0.1 - - [09/Jun/2025 11:30:54] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:30:56,637 - INFO - User user sent: halo
+2025-06-09 11:30:56,639 - INFO - 127.0.0.1 - - [09/Jun/2025 11:30:56] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:35:28,347 - INFO - 127.0.0.1 - - [09/Jun/2025 11:35:28] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 11:35:28,358 - INFO - User user sent: halo
+2025-06-09 11:35:28,359 - INFO - 127.0.0.1 - - [09/Jun/2025 11:35:28] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:37:39,486 - INFO - 127.0.0.1 - - [09/Jun/2025 11:37:39] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 11:37:39,504 - INFO - User user sent: halo
+2025-06-09 11:37:39,505 - INFO - 127.0.0.1 - - [09/Jun/2025 11:37:39] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:37:39,529 - INFO - 127.0.0.1 - - [09/Jun/2025 11:37:39] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 11:37:39,531 - INFO - User user sent: halo
+2025-06-09 11:37:39,531 - INFO - 127.0.0.1 - - [09/Jun/2025 11:37:39] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:39:44,873 - INFO - 127.0.0.1 - - [09/Jun/2025 11:39:44] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 11:39:44,877 - INFO - User user sent: halo
+2025-06-09 11:39:44,878 - INFO - 127.0.0.1 - - [09/Jun/2025 11:39:44] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:39:45,084 - INFO - 127.0.0.1 - - [09/Jun/2025 11:39:45] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 11:39:45,091 - INFO - User user sent: halo
+2025-06-09 11:39:45,092 - INFO - 127.0.0.1 - - [09/Jun/2025 11:39:45] "POST /chat HTTP/1.1" 200 -
+2025-06-09 11:45:11,775 - INFO - 127.0.0.1 - - [09/Jun/2025 11:45:11] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-09 11:45:25,997 - INFO - 127.0.0.1 - - [09/Jun/2025 11:45:25] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-09 11:45:28,393 - INFO - 127.0.0.1 - - [09/Jun/2025 11:45:28] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-09 11:55:50,627 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/reports_api.py', reloading
+2025-06-09 11:55:51,266 - INFO -  * Restarting with stat
+2025-06-09 11:55:53,192 - WARNING -  * Debugger is active!
+2025-06-09 11:55:53,219 - INFO -  * Debugger PIN: 728-079-941
+2025-06-09 12:01:15,579 - INFO - 127.0.0.1 - - [09/Jun/2025 12:01:15] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-09 12:01:31,889 - INFO - 127.0.0.1 - - [09/Jun/2025 12:01:31] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-09 12:02:15,465 - INFO - 127.0.0.1 - - [09/Jun/2025 12:02:15] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-09 12:02:15,546 - INFO - 127.0.0.1 - - [09/Jun/2025 12:02:15] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 12:02:15,549 - INFO - User user sent: halo
+2025-06-09 12:02:15,549 - INFO - 127.0.0.1 - - [09/Jun/2025 12:02:15] "POST /chat HTTP/1.1" 200 -
+2025-06-09 12:02:18,463 - INFO - 127.0.0.1 - - [09/Jun/2025 12:02:18] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-09 12:10:48,403 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/reports_api.py', reloading
+2025-06-09 12:10:49,437 - INFO -  * Restarting with stat
+2025-06-09 12:10:51,433 - WARNING -  * Debugger is active!
+2025-06-09 12:10:51,459 - INFO -  * Debugger PIN: 728-079-941
+2025-06-09 12:11:24,919 - INFO - 127.0.0.1 - - [09/Jun/2025 12:11:24] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-09 12:11:24,924 - INFO - User user sent: halo
+2025-06-09 12:11:24,924 - INFO - 127.0.0.1 - - [09/Jun/2025 12:11:24] "POST /chat HTTP/1.1" 200 -
+2025-06-10 02:04:33,882 - INFO - 127.0.0.1 - - [10/Jun/2025 02:04:33] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 02:04:33,896 - INFO - User user sent: halo
+2025-06-10 02:04:33,897 - INFO - 127.0.0.1 - - [10/Jun/2025 02:04:33] "POST /chat HTTP/1.1" 200 -
+2025-06-10 02:04:51,778 - INFO - 127.0.0.1 - - [10/Jun/2025 02:04:51] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 02:04:51,784 - INFO - User user sent: rekomendasi
+2025-06-10 02:04:51,786 - INFO - 127.0.0.1 - - [10/Jun/2025 02:04:51] "POST /chat HTTP/1.1" 200 -
+2025-06-10 02:10:43,227 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-10 02:10:44,085 - INFO -  * Restarting with stat
+2025-06-10 02:10:48,206 - WARNING -  * Debugger is active!
+2025-06-10 02:10:48,242 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 02:11:50,317 - INFO - 127.0.0.1 - - [10/Jun/2025 02:11:50] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 02:11:50,323 - INFO - User user sent: halo
+2025-06-10 02:11:50,323 - INFO - 127.0.0.1 - - [10/Jun/2025 02:11:50] "POST /chat HTTP/1.1" 200 -
+2025-06-10 02:11:52,113 - INFO - User user sent: halo
+2025-06-10 02:11:52,114 - INFO - 127.0.0.1 - - [10/Jun/2025 02:11:52] "POST /chat HTTP/1.1" 200 -
+2025-06-10 02:12:00,704 - INFO - 127.0.0.1 - - [10/Jun/2025 02:12:00] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 02:12:17,700 - INFO - 127.0.0.1 - - [10/Jun/2025 02:12:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 02:12:17,714 - INFO - User user sent: halo
+2025-06-10 02:12:17,715 - INFO - 127.0.0.1 - - [10/Jun/2025 02:12:17] "POST /chat HTTP/1.1" 200 -
+2025-06-10 02:12:21,616 - INFO - 127.0.0.1 - - [10/Jun/2025 02:12:21] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 02:12:39,097 - INFO - 127.0.0.1 - - [10/Jun/2025 02:12:39] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 02:38:51,281 - INFO - 127.0.0.1 - - [10/Jun/2025 02:38:51] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 02:38:51,288 - INFO - User user sent: halo
+2025-06-10 02:38:51,291 - INFO - 127.0.0.1 - - [10/Jun/2025 02:38:51] "POST /chat HTTP/1.1" 200 -
+2025-06-10 02:38:56,556 - INFO - 127.0.0.1 - - [10/Jun/2025 02:38:56] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 02:39:00,561 - INFO - 127.0.0.1 - - [10/Jun/2025 02:39:00] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 02:40:07,244 - INFO - 127.0.0.1 - - [10/Jun/2025 02:40:07] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 02:40:07,250 - INFO - User user sent: halo
+2025-06-10 02:40:07,253 - INFO - 127.0.0.1 - - [10/Jun/2025 02:40:07] "POST /chat HTTP/1.1" 200 -
+2025-06-10 02:40:42,216 - INFO - 127.0.0.1 - - [10/Jun/2025 02:40:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 02:40:42,222 - INFO - User user sent: halo
+2025-06-10 02:40:42,224 - INFO - 127.0.0.1 - - [10/Jun/2025 02:40:42] "POST /chat HTTP/1.1" 200 -
+2025-06-10 02:44:23,391 - INFO - 127.0.0.1 - - [10/Jun/2025 02:44:23] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 02:44:23,401 - INFO - User user sent: halo
+2025-06-10 02:44:23,403 - INFO - 127.0.0.1 - - [10/Jun/2025 02:44:23] "POST /chat HTTP/1.1" 200 -
+2025-06-10 03:02:40,768 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/reports_api.py', reloading
+2025-06-10 03:02:41,793 - INFO -  * Restarting with stat
+2025-06-10 03:02:43,196 - WARNING -  * Debugger is active!
+2025-06-10 03:02:43,228 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 03:29:09,594 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/tests/test_chatbot.py', reloading
+2025-06-10 03:29:10,945 - INFO -  * Restarting with stat
+2025-06-10 03:29:12,633 - WARNING -  * Debugger is active!
+2025-06-10 03:29:12,665 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 03:31:01,016 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/tests/test_chatbot.py', reloading
+2025-06-10 03:31:01,370 - INFO -  * Restarting with stat
+2025-06-10 03:31:03,239 - WARNING -  * Debugger is active!
+2025-06-10 03:31:03,272 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 03:37:49,453 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/tests/test_chatbot.py', reloading
+2025-06-10 03:37:49,673 - INFO -  * Restarting with stat
+2025-06-10 03:37:51,407 - WARNING -  * Debugger is active!
+2025-06-10 03:37:51,451 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 03:40:22,607 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-10 03:40:23,557 - INFO -  * Restarting with stat
+2025-06-10 03:40:26,574 - WARNING -  * Debugger is active!
+2025-06-10 03:40:26,623 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 03:41:34,873 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/tests/test_chatbot.py', reloading
+2025-06-10 03:41:35,785 - INFO -  * Restarting with stat
+2025-06-10 03:41:38,228 - WARNING -  * Debugger is active!
+2025-06-10 03:41:38,254 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 03:46:44,865 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/tests/test_chatbot.py', reloading
+2025-06-10 03:46:45,522 - INFO -  * Restarting with stat
+2025-06-10 03:46:48,239 - WARNING -  * Debugger is active!
+2025-06-10 03:46:48,270 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 03:53:16,750 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/tests/test_chatbot.py', reloading
+2025-06-10 03:53:17,420 - INFO -  * Restarting with stat
+2025-06-10 03:53:19,223 - WARNING -  * Debugger is active!
+2025-06-10 03:53:19,269 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 04:06:43,562 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/tests/test_chatbot.py', reloading
+2025-06-10 04:06:43,859 - INFO -  * Restarting with stat
+2025-06-10 04:06:46,872 - WARNING -  * Debugger is active!
+2025-06-10 04:06:46,901 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 08:43:00,087 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/tests/test_chatbot.py', reloading
+2025-06-10 08:43:01,622 - INFO -  * Restarting with stat
+2025-06-10 08:43:03,962 - WARNING -  * Debugger is active!
+2025-06-10 08:43:03,998 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 09:02:34,941 - INFO - 127.0.0.1 - - [10/Jun/2025 09:02:34] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:02:34,987 - INFO - User user sent: halo
+2025-06-10 09:02:34,988 - INFO - 127.0.0.1 - - [10/Jun/2025 09:02:34] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:02:42,625 - INFO - 127.0.0.1 - - [10/Jun/2025 09:02:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:02:42,631 - INFO - User user sent: rekomendasi
+2025-06-10 09:02:42,633 - INFO - 127.0.0.1 - - [10/Jun/2025 09:02:42] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:03:21,269 - INFO - 127.0.0.1 - - [10/Jun/2025 09:03:21] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:03:21,288 - INFO - User user sent: pesan charter drop malang-juanda
+2025-06-10 09:03:21,297 - INFO - 127.0.0.1 - - [10/Jun/2025 09:03:21] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:03:31,413 - INFO - 127.0.0.1 - - [10/Jun/2025 09:03:31] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:03:31,419 - INFO - User user sent: Billy
+2025-06-10 09:03:31,421 - INFO - 127.0.0.1 - - [10/Jun/2025 09:03:31] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:03:35,899 - INFO - User user sent: 1
+2025-06-10 09:03:35,909 - INFO - 127.0.0.1 - - [10/Jun/2025 09:03:35] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:04:08,256 - INFO - 127.0.0.1 - - [10/Jun/2025 09:04:08] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:04:08,273 - INFO - User user sent: 085233496932
+2025-06-10 09:04:08,275 - INFO - 127.0.0.1 - - [10/Jun/2025 09:04:08] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:04:49,900 - INFO - 127.0.0.1 - - [10/Jun/2025 09:04:49] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:04:49,912 - INFO - User user sent: Jl Candi Agung
+2025-06-10 09:04:49,919 - INFO - 127.0.0.1 - - [10/Jun/2025 09:04:49] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:04:59,830 - INFO - 127.0.0.1 - - [10/Jun/2025 09:04:59] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:04:59,836 - INFO - User user sent: Bandara Juanda
+2025-06-10 09:04:59,837 - INFO - 127.0.0.1 - - [10/Jun/2025 09:04:59] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:05:08,272 - INFO - 127.0.0.1 - - [10/Jun/2025 09:05:08] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:05:08,281 - INFO - User user sent: QZ323
+2025-06-10 09:05:08,283 - INFO - 127.0.0.1 - - [10/Jun/2025 09:05:08] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:05:14,189 - INFO - 127.0.0.1 - - [10/Jun/2025 09:05:14] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:05:14,196 - INFO - User user sent: AirAsia
+2025-06-10 09:05:14,197 - INFO - 127.0.0.1 - - [10/Jun/2025 09:05:14] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:05:51,117 - INFO - 127.0.0.1 - - [10/Jun/2025 09:05:51] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:05:51,121 - INFO - User user sent: 02.00
+2025-06-10 09:05:51,126 - INFO - 127.0.0.1 - - [10/Jun/2025 09:05:51] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:05:58,403 - INFO - 127.0.0.1 - - [10/Jun/2025 09:05:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:05:58,407 - INFO - User user sent: 02:00
+2025-06-10 09:05:58,408 - INFO - 127.0.0.1 - - [10/Jun/2025 09:05:58] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:06:18,587 - INFO - 127.0.0.1 - - [10/Jun/2025 09:06:18] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:06:18,592 - INFO - User user sent: 29-06-2025
+2025-06-10 09:06:18,593 - INFO - 127.0.0.1 - - [10/Jun/2025 09:06:18] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:06:31,979 - INFO - 127.0.0.1 - - [10/Jun/2025 09:06:31] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:06:31,987 - INFO - User user sent: 2025-06-29
+2025-06-10 09:06:31,988 - INFO - 127.0.0.1 - - [10/Jun/2025 09:06:31] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:07:38,472 - INFO - 127.0.0.1 - - [10/Jun/2025 09:07:38] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:07:38,485 - INFO - User user sent: ulang
+2025-06-10 09:07:38,487 - INFO - 127.0.0.1 - - [10/Jun/2025 09:07:38] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:07:55,721 - INFO - 127.0.0.1 - - [10/Jun/2025 09:07:55] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:07:55,728 - INFO - User user sent: Billy
+2025-06-10 09:07:55,729 - INFO - 127.0.0.1 - - [10/Jun/2025 09:07:55] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:08:00,723 - INFO - User user sent: 2
+2025-06-10 09:08:00,724 - INFO - 127.0.0.1 - - [10/Jun/2025 09:08:00] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:08:10,243 - INFO - 127.0.0.1 - - [10/Jun/2025 09:08:10] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:08:10,250 - INFO - User user sent: 085233496932
+2025-06-10 09:08:10,251 - INFO - 127.0.0.1 - - [10/Jun/2025 09:08:10] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:08:21,286 - INFO - 127.0.0.1 - - [10/Jun/2025 09:08:21] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:08:21,290 - INFO - User user sent: Jl. Candi Agung 2
+2025-06-10 09:08:21,291 - INFO - 127.0.0.1 - - [10/Jun/2025 09:08:21] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:08:29,515 - INFO - 127.0.0.1 - - [10/Jun/2025 09:08:29] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:08:29,521 - INFO - User user sent: Bandara Juanda
+2025-06-10 09:08:29,522 - INFO - 127.0.0.1 - - [10/Jun/2025 09:08:29] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:08:37,208 - INFO - 127.0.0.1 - - [10/Jun/2025 09:08:37] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:08:37,214 - INFO - User user sent: QZ323
+2025-06-10 09:08:37,214 - INFO - 127.0.0.1 - - [10/Jun/2025 09:08:37] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:08:49,522 - INFO - 127.0.0.1 - - [10/Jun/2025 09:08:49] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:08:49,539 - INFO - User user sent: AirAsia
+2025-06-10 09:08:49,540 - INFO - 127.0.0.1 - - [10/Jun/2025 09:08:49] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:09:00,166 - INFO - 127.0.0.1 - - [10/Jun/2025 09:09:00] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:09:00,171 - INFO - User user sent: 03.00
+2025-06-10 09:09:00,171 - INFO - 127.0.0.1 - - [10/Jun/2025 09:09:00] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:09:07,577 - INFO - 127.0.0.1 - - [10/Jun/2025 09:09:07] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:09:07,583 - INFO - User user sent: 03:00
+2025-06-10 09:09:07,584 - INFO - 127.0.0.1 - - [10/Jun/2025 09:09:07] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:09:37,629 - INFO - 127.0.0.1 - - [10/Jun/2025 09:09:37] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:09:37,636 - INFO - User user sent: 2025-06-26
+2025-06-10 09:09:37,726 - INFO - 127.0.0.1 - - [10/Jun/2025 09:09:37] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-06-10 09:11:08,918 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-10 09:11:09,356 - INFO -  * Restarting with stat
+2025-06-10 09:11:12,355 - WARNING -  * Debugger is active!
+2025-06-10 09:11:12,396 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 09:11:28,100 - INFO - 127.0.0.1 - - [10/Jun/2025 09:11:28] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:11:28,108 - INFO - User user sent: 2025-06-26
+2025-06-10 09:11:28,112 - INFO - 127.0.0.1 - - [10/Jun/2025 09:11:28] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:11:42,864 - INFO - 127.0.0.1 - - [10/Jun/2025 09:11:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:11:42,871 - INFO - User user sent: bantuan
+2025-06-10 09:11:42,872 - INFO - 127.0.0.1 - - [10/Jun/2025 09:11:42] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:12:09,079 - INFO - 127.0.0.1 - - [10/Jun/2025 09:12:09] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:12:09,090 - INFO - User user sent: Nama: Billy Layanan: Charter Drop Rute: Malang-Juanda Penumpang: 1 Telepon: +6285233496932 Alamat Jemput: Jl Candi Agung Alamat Antar: Bandara Juanda Penerbangan: QZ323 Maskapai: AirAsia Jam Jemput: 02:00 Tanggal Jemput: 2025-06-29
+2025-06-10 09:12:09,091 - INFO - 127.0.0.1 - - [10/Jun/2025 09:12:09] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:13:37,944 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-10 09:13:38,103 - INFO -  * Restarting with stat
+2025-06-10 09:13:40,592 - WARNING -  * Debugger is active!
+2025-06-10 09:13:40,651 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 09:15:20,961 - INFO - 127.0.0.1 - - [10/Jun/2025 09:15:20] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 09:15:20,982 - INFO - User user sent: Nama: Billy Layanan: Charter Drop Rute: Malang-Juanda Penumpang: 1 Telepon: +6285233496932 Alamat Jemput: Jl Candi Agung Alamat Antar: Bandara Juanda Penerbangan: QZ323 Maskapai: AirAsia Jam Jemput: 02:00 Tanggal Jemput: 2025-06-29
+2025-06-10 09:15:20,982 - INFO - 127.0.0.1 - - [10/Jun/2025 09:15:20] "POST /chat HTTP/1.1" 200 -
+2025-06-10 09:15:47,218 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-10 09:15:47,377 - INFO -  * Restarting with stat
+2025-06-10 09:15:50,377 - WARNING -  * Debugger is active!
+2025-06-10 09:15:50,423 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 09:28:13,314 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/scripts/insert_sample_reservations.py', reloading
+2025-06-10 09:28:14,262 - INFO -  * Restarting with stat
+2025-06-10 09:28:16,140 - WARNING -  * Debugger is active!
+2025-06-10 09:28:16,178 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 09:29:31,457 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/scripts/insert_sample_reservations.py', reloading
+2025-06-10 09:29:31,733 - INFO -  * Restarting with stat
+2025-06-10 09:29:33,862 - WARNING -  * Debugger is active!
+2025-06-10 09:29:33,901 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 09:31:04,626 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:04] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:31:04,704 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:04] "GET /reservations/?status=pending HTTP/1.1" 200 -
+2025-06-10 09:31:12,196 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:12] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:31:12,230 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:12] "GET /reservations/?status=pending HTTP/1.1" 200 -
+2025-06-10 09:31:16,179 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:16] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:31:16,199 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:16] "GET /reservations/?status=confirmed HTTP/1.1" 200 -
+2025-06-10 09:31:17,931 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:17] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:31:17,947 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:17] "GET /reservations/?status=ongoing HTTP/1.1" 200 -
+2025-06-10 09:31:19,671 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:19] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:31:19,686 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:19] "GET /reservations/?status=finished HTTP/1.1" 200 -
+2025-06-10 09:31:21,966 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:21] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:31:21,986 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:21] "GET /reservations/?status=cancelled HTTP/1.1" 200 -
+2025-06-10 09:31:23,632 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:23] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:31:23,649 - INFO - 192.168.0.9 - - [10/Jun/2025 09:31:23] "GET /reservations/?status=pending HTTP/1.1" 200 -
+2025-06-10 09:35:22,388 - INFO - 192.168.0.9 - - [10/Jun/2025 09:35:22] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:35:22,444 - INFO - 192.168.0.9 - - [10/Jun/2025 09:35:22] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 09:36:01,104 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-10 09:36:01,704 - INFO -  * Restarting with stat
+2025-06-10 09:36:03,502 - WARNING -  * Debugger is active!
+2025-06-10 09:36:03,534 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 09:39:51,466 - INFO - 192.168.0.9 - - [10/Jun/2025 09:39:51] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:39:51,517 - INFO - 192.168.0.9 - - [10/Jun/2025 09:39:51] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 09:41:04,385 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-10 09:41:05,114 - INFO -  * Restarting with stat
+2025-06-10 09:41:07,069 - WARNING -  * Debugger is active!
+2025-06-10 09:41:07,103 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 09:41:46,717 - INFO - 192.168.0.9 - - [10/Jun/2025 09:41:46] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:41:46,730 - INFO - 192.168.0.9 - - [10/Jun/2025 09:41:46] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 09:42:20,077 - INFO - 192.168.0.9 - - [10/Jun/2025 09:42:20] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:42:20,092 - INFO - 192.168.0.9 - - [10/Jun/2025 09:42:20] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 09:53:15,226 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.9:5000
+2025-06-10 09:53:15,227 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 09:53:15,228 - INFO -  * Restarting with stat
+2025-06-10 09:53:20,821 - WARNING -  * Debugger is active!
+2025-06-10 09:53:20,898 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 09:53:20,985 - INFO - 192.168.0.9 - - [10/Jun/2025 09:53:20] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:53:21,005 - INFO - 192.168.0.9 - - [10/Jun/2025 09:53:21] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 09:54:41,091 - INFO - 192.168.0.9 - - [10/Jun/2025 09:54:41] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:54:41,162 - INFO - 192.168.0.9 - - [10/Jun/2025 09:54:41] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 09:55:16,671 - INFO - 192.168.0.9 - - [10/Jun/2025 09:55:16] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:55:16,695 - INFO - 192.168.0.9 - - [10/Jun/2025 09:55:16] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 09:56:41,088 - INFO - 192.168.0.9 - - [10/Jun/2025 09:56:41] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:56:41,103 - INFO - 192.168.0.9 - - [10/Jun/2025 09:56:41] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 09:56:45,615 - INFO - 192.168.0.9 - - [10/Jun/2025 09:56:45] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:56:45,632 - INFO - 192.168.0.9 - - [10/Jun/2025 09:56:45] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 09:58:04,879 - INFO - 192.168.0.9 - - [10/Jun/2025 09:58:04] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 09:58:04,981 - INFO - 192.168.0.9 - - [10/Jun/2025 09:58:04] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:00:20,530 - INFO - 192.168.0.9 - - [10/Jun/2025 10:00:20] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 10:00:20,578 - INFO - 192.168.0.9 - - [10/Jun/2025 10:00:20] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:04:41,404 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-10 10:04:41,868 - INFO -  * Restarting with stat
+2025-06-10 10:04:45,944 - WARNING -  * Debugger is active!
+2025-06-10 10:04:45,985 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 10:05:44,167 - INFO - 192.168.0.9 - - [10/Jun/2025 10:05:44] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 10:05:44,178 - INFO - 192.168.0.9 - - [10/Jun/2025 10:05:44] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:08:48,412 - INFO - 192.168.0.9 - - [10/Jun/2025 10:08:48] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 10:08:48,420 - INFO - 192.168.0.9 - - [10/Jun/2025 10:08:48] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:16:42,691 - INFO - 192.168.0.9 - - [10/Jun/2025 10:16:42] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 10:16:42,723 - INFO - 192.168.0.9 - - [10/Jun/2025 10:16:42] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:18:59,665 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/scripts/insert_sample_reservations.py', reloading
+2025-06-10 10:19:00,503 - INFO -  * Restarting with stat
+2025-06-10 10:19:02,760 - WARNING -  * Debugger is active!
+2025-06-10 10:19:02,817 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 10:19:21,770 - INFO - 192.168.0.9 - - [10/Jun/2025 10:19:21] "[33mGET /api/reports HTTP/1.1[0m" 404 -
+2025-06-10 10:19:21,794 - INFO - 192.168.0.9 - - [10/Jun/2025 10:19:21] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:25:25,440 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-10 10:25:25,991 - INFO -  * Restarting with stat
+2025-06-10 10:25:28,180 - WARNING -  * Debugger is active!
+2025-06-10 10:25:28,216 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 10:26:02,271 - INFO - 192.168.0.9 - - [10/Jun/2025 10:26:02] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:28:42,025 - INFO - 127.0.0.1 - - [10/Jun/2025 10:28:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 10:28:42,027 - INFO - 127.0.0.1 - - [10/Jun/2025 10:28:42] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:28:42,095 - INFO - User user sent: halo
+2025-06-10 10:28:42,098 - INFO - 127.0.0.1 - - [10/Jun/2025 10:28:42] "POST /chat HTTP/1.1" 200 -
+2025-06-10 10:28:44,710 - INFO - 127.0.0.1 - - [10/Jun/2025 10:28:44] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:28:44,713 - INFO - User user sent: halo
+2025-06-10 10:28:44,713 - INFO - 127.0.0.1 - - [10/Jun/2025 10:28:44] "POST /chat HTTP/1.1" 200 -
+2025-06-10 10:29:10,618 - INFO - 192.168.0.9 - - [10/Jun/2025 10:29:10] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:29:44,461 - INFO - 192.168.0.9 - - [10/Jun/2025 10:29:44] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:30:05,848 - INFO - 192.168.0.9 - - [10/Jun/2025 10:30:05] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:30:41,904 - INFO - 192.168.0.9 - - [10/Jun/2025 10:30:41] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:44:08,983 - INFO - 192.168.0.9 - - [10/Jun/2025 10:44:08] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:50:38,539 - INFO - 192.168.0.9 - - [10/Jun/2025 10:50:38] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:50:41,467 - INFO - 192.168.0.9 - - [10/Jun/2025 10:50:41] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 10:50:41,473 - INFO - 192.168.0.9 - - [10/Jun/2025 10:50:41] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:50:45,459 - INFO - 192.168.0.9 - - [10/Jun/2025 10:50:45] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 10:50:45,469 - INFO - 192.168.0.9 - - [10/Jun/2025 10:50:45] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:52:05,206 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-10 10:52:06,335 - INFO -  * Restarting with stat
+2025-06-10 10:52:08,349 - WARNING -  * Debugger is active!
+2025-06-10 10:52:08,385 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 10:53:58,710 - INFO - 192.168.0.9 - - [10/Jun/2025 10:53:58] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:53:58,714 - INFO - 192.168.0.9 - - [10/Jun/2025 10:53:58] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 10:54:02,155 - INFO - 192.168.0.9 - - [10/Jun/2025 10:54:02] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 10:54:02,157 - INFO - 192.168.0.9 - - [10/Jun/2025 10:54:02] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 10:55:52,978 - INFO - 192.168.0.9 - - [10/Jun/2025 10:55:52] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 10:55:52,979 - INFO - 192.168.0.9 - - [10/Jun/2025 10:55:52] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:01:49,911 - INFO - 192.168.0.9 - - [10/Jun/2025 11:01:49] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:01:49,912 - INFO - 192.168.0.9 - - [10/Jun/2025 11:01:49] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:01:54,111 - INFO - 192.168.0.9 - - [10/Jun/2025 11:01:54] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:01:54,125 - INFO - 192.168.0.9 - - [10/Jun/2025 11:01:54] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:02:56,154 - INFO - 192.168.0.9 - - [10/Jun/2025 11:02:56] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:02:56,159 - INFO - 192.168.0.9 - - [10/Jun/2025 11:02:56] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:02:58,991 - INFO - 192.168.0.9 - - [10/Jun/2025 11:02:58] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:02:59,004 - INFO - 192.168.0.9 - - [10/Jun/2025 11:02:59] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:03:18,087 - INFO - 192.168.0.9 - - [10/Jun/2025 11:03:18] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:03:18,090 - INFO - 192.168.0.9 - - [10/Jun/2025 11:03:18] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:03:20,605 - INFO - 192.168.0.9 - - [10/Jun/2025 11:03:20] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:03:20,612 - INFO - 192.168.0.9 - - [10/Jun/2025 11:03:20] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:04:41,324 - INFO - 192.168.0.9 - - [10/Jun/2025 11:04:41] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:04:41,325 - INFO - 192.168.0.9 - - [10/Jun/2025 11:04:41] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:09:26,077 - INFO - 192.168.0.9 - - [10/Jun/2025 11:09:26] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:09:26,079 - INFO - 192.168.0.9 - - [10/Jun/2025 11:09:26] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:10:28,073 - INFO - 192.168.0.9 - - [10/Jun/2025 11:10:28] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:10:28,079 - INFO - 192.168.0.9 - - [10/Jun/2025 11:10:28] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:11:05,263 - INFO - 192.168.0.9 - - [10/Jun/2025 11:11:05] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:11:05,266 - INFO - 192.168.0.9 - - [10/Jun/2025 11:11:05] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:12:14,655 - INFO - 192.168.0.9 - - [10/Jun/2025 11:12:14] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:12:15,751 - INFO - 192.168.0.9 - - [10/Jun/2025 11:12:15] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:12:15,754 - INFO - 192.168.0.9 - - [10/Jun/2025 11:12:15] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:12:18,515 - INFO - 192.168.0.9 - - [10/Jun/2025 11:12:18] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:12:18,517 - INFO - 192.168.0.9 - - [10/Jun/2025 11:12:18] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:12:23,737 - INFO - 192.168.0.9 - - [10/Jun/2025 11:12:23] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:13:47,949 - INFO - 192.168.0.9 - - [10/Jun/2025 11:13:47] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:13:49,177 - INFO - 192.168.0.9 - - [10/Jun/2025 11:13:49] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 11:13:49,182 - INFO - 192.168.0.9 - - [10/Jun/2025 11:13:49] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:13:51,084 - INFO - 192.168.0.9 - - [10/Jun/2025 11:13:51] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:13:53,875 - INFO - 192.168.0.9 - - [10/Jun/2025 11:13:53] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 11:14:21,746 - INFO - 192.168.0.9 - - [10/Jun/2025 11:14:21] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 20:00:58,460 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.175:5000
+2025-06-10 20:00:58,466 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 20:00:58,467 - INFO -  * Restarting with stat
+2025-06-10 20:01:00,020 - WARNING -  * Debugger is active!
+2025-06-10 20:01:00,056 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 20:29:11,997 - INFO - 127.0.0.1 - - [10/Jun/2025 20:29:11] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 20:29:12,041 - INFO - User user sent: halo
+2025-06-10 20:29:12,042 - INFO - 127.0.0.1 - - [10/Jun/2025 20:29:12] "POST /chat HTTP/1.1" 200 -
+2025-06-10 21:15:43,198 - INFO - 127.0.0.1 - - [10/Jun/2025 21:15:43] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 21:16:27,584 - INFO - 127.0.0.1 - - [10/Jun/2025 21:16:27] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 21:27:32,771 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-10 21:27:33,847 - INFO -  * Restarting with stat
+2025-06-10 21:27:36,464 - WARNING -  * Debugger is active!
+2025-06-10 21:27:36,927 - INFO -  * Debugger PIN: 728-079-941
+2025-06-10 22:02:23,398 - INFO - 127.0.0.1 - - [10/Jun/2025 22:02:23] "GET /reservations/ HTTP/1.1" 200 -
+2025-06-10 22:02:23,524 - INFO - 127.0.0.1 - - [10/Jun/2025 22:02:23] "GET /api/reports HTTP/1.1" 200 -
+2025-06-10 22:03:58,355 - INFO - 127.0.0.1 - - [10/Jun/2025 22:03:58] "OPTIONS /chat HTTP/1.1" 200 -
+2025-06-10 22:09:36,517 - INFO -  * Detected change in '/Users/temanmarket/Downloads/RASA+RANDOMFOREST CHATBOT/backend/chatbot.py', reloading
+2025-06-10 22:09:36,980 - INFO -  * Restarting with stat
+2025-06-10 22:09:41,707 - WARNING -  * Debugger is active!
+2025-06-10 22:09:41,735 - INFO -  * Debugger PIN: 728-079-941
