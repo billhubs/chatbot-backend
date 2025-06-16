@@ -138,6 +138,25 @@ def calculate_price(service, route, passengers, addresses=1, vehicle_type=None, 
 
     return total_price
 
+# --- Llama Maverick endpoint ---
+@app.route('/llama/respond', methods=['POST'])
+def llama_respond():
+    data = request.json
+    prompt = data.get('prompt', '')
+    # Here you would call your Llama Maverick model or API
+    # For demo, just echo the prompt
+    answer = f"Llama Maverick response for: {prompt}"
+    return jsonify({"answer": answer})
+
+# --- Random Forest endpoint ---
+@app.route('/rf/predict', methods=['POST'])
+def rf_predict():
+    data = request.json
+    # Example: Use features from data to predict
+    # For demo, just echo the input
+    prediction = f"RF prediction for input: {data}"
+    return jsonify({"prediction": prediction})
+
 def process_input(message):
     message_lower = message.lower()
     if any(x in message_lower for x in ['pesan', 'booking', 'reservasi']):
@@ -191,16 +210,24 @@ def chat():
         # Relaxed regex to allow typos in service and route
         match = re.search(r'(reguler|charter drop|charter harian|charter dropp|regulerr|charter hariann)\s*(malang-juanda|juanda-malang|malang-surabaya|surabaya-malang|malang-juandaa|juanda-malangg)', message_lower)
         if match:
-            state['step'] = 'name'
             booking_data['service'] = match.group(1).lower()
             booking_data['route'] = match.group(2).lower()
             state['error_count'] = 0
-            return jsonify({'response': 'Silakan masukkan nama pemesan (misal, Budi Santoso).'})
+            # Set next step based on service type
+            if booking_data['service'] == 'charter harian':
+                state['step'] = 'vehicle_type'
+                return jsonify({'response': 'Silakan pilih tipe kendaraan untuk Charter Harian (Avanza, Innova, Hiace).'})
+            elif booking_data['service'] == 'charter drop':
+                state['step'] = 'vehicle_type'
+                return jsonify({'response': 'Silakan pilih tipe kendaraan untuk Charter Drop (Avanza, Innova, Hiace).'})
+            else:
+                state['step'] = 'name'
+                return jsonify({'response': 'Silakan masukkan nama pemesan (misal, Budi Santoso).'})
     elif any(x in message_lower for x in ['rekomendasi', 'recommend', 'saran']):
         # Provide recommendation response
         base_price = HOLIDAY_PRICING['reguler'] if False else REGULER_BASE_PRICE
         price_per_passenger = base_price + REGULER_ADDITIONAL_PASSENGER  # Approximate
-        return jsonify({'response': f'Untuk rute Malang-Juanda, kami sarankan layanan Reguler (Rp{price_per_passenger:,}/orang) atau Charter Drop (mulai Rp395,000). Ketik "Pesan Reguler Malang-Juanda" untuk mulai.'})
+        return jsonify({'response': f'Untuk rute Malang-Juanda kami sarankan layanan Reguler (Rp{price_per_passenger}/orang) atau Charter Drop (mulai Rp395000). Ketik "Pesan Reguler Malang-Juanda" untuk mulai.'})
     
     # Handle booking steps
     if state['step'] == 'name':
@@ -227,41 +254,55 @@ def chat():
             state['error_count'] += 1
             if state['error_count'] > 2:
                 state['step'] = None
-                return jsonify({'response': 'Maaf, terlalu banyak kesalahan. Silakan mulai lagi dengan "Pesan Reguler Malang-Juanda".'})
+                return jsonify({'response': f'Maaf, terlalu banyak kesalahan. Silakan mulai lagi dengan "Pesan {booking_data.get("service", "Reguler").title()} {booking_data.get("route", "")}".'})
             return jsonify({'response': 'Jumlah penumpang tidak valid. Silakan masukkan seperti "3 penumpang" atau "dua orang".'})
     
     elif state['step'] == 'phone':
         phone = normalize_phone(message)
         if phone:
             booking_data['phone'] = phone
-            state['step'] = 'address_pickup'
             state['error_count'] = 0
-            return jsonify({'response': 'Masukkan alamat jemput (misal, Jl. Kawi No. 10).'})
+            # Next step depends on service type
+            if booking_data['service'] in ['charter drop', 'charter harian']:
+                state['step'] = 'address_pickup'
+                return jsonify({'response': 'Masukkan alamat jemput (misal, Jl. Kawi No. 10).'})
+            else:
+                state['step'] = 'address_pickup'
+                return jsonify({'response': 'Masukkan alamat jemput (misal, Jl. Kawi No. 10).'})
         else:
             state['error_count'] += 1
             if state['error_count'] > 2:
                 state['step'] = None
-                return jsonify({'response': 'Maaf, terlalu banyak kesalahan. Silakan mulai lagi dengan "Pesan Reguler Malang-Juanda".'})
+                return jsonify({'response': f'Maaf, terlalu banyak kesalahan. Silakan mulai lagi dengan "Pesan {booking_data.get("service", "Reguler").title()} {booking_data.get("route", "")}".'})
             return jsonify({'response': 'Nomor telepon tidak valid. Silakan masukkan seperti "+628123456789" atau "08123456789".'})
     
     elif state['step'] == 'address_pickup':
         if len(message) > 5:
             booking_data['address_pickup'] = message
-            state['step'] = 'address_dropoff'
             state['error_count'] = 0
-            return jsonify({'response': 'Masukkan alamat antar (misal, Jl. Sudirman No. 5). Ketik "tidak ada" jika tidak ada.'})
+            # Next step depends on service type
+            if booking_data['service'] == 'charter harian':
+                state['step'] = 'rental_hours'
+                return jsonify({'response': 'Masukkan jumlah jam sewa untuk Charter Harian (misal, 5).'})
+            else:
+                state['step'] = 'address_dropoff'
+                return jsonify({'response': 'Masukkan alamat antar (misal, Jl. Sudirman No. 5). Ketik "tidak ada" jika tidak ada.'})
         else:
             state['error_count'] += 1
             if state['error_count'] > 2:
                 state['step'] = None
-                return jsonify({'response': 'Maaf, terlalu banyak kesalahan. Silakan mulai lagi dengan "Pesan Reguler Malang-Juanda".'})
+                return jsonify({'response': f'Maaf, terlalu banyak kesalahan. Silakan mulai lagi dengan "Pesan {booking_data.get("service", "Reguler").title()} {booking_data.get("route", "")}".'})
             return jsonify({'response': 'Alamat jemput tidak valid. Silakan masukkan alamat lengkap (misal, Jl. Kawi No. 10).'})
     
     elif state['step'] == 'address_dropoff':
         booking_data['address_dropoff'] = message if message.lower() != 'tidak ada' else None
-        state['step'] = 'flight'
         state['error_count'] = 0
-        return jsonify({'response': 'Masukkan kode penerbangan (misal, GA123). Ketik "tidak ada" jika tidak ada.'})
+        if booking_data['service'] == 'charter harian':
+            state['step'] = 'pickup_time'
+            return jsonify({'response': 'Masukkan jam jemput (misal, 07:00).'})
+        else:
+            state['step'] = 'flight'
+            return jsonify({'response': 'Masukkan kode penerbangan (misal, GA123). Ketik "tidak ada" jika tidak ada.'})
     
     elif state['step'] == 'flight':
         booking_data['flight'] = message if message.lower() != 'tidak ada' else None
@@ -528,82 +569,6 @@ def get_reservations():
         app.logger.error(f"Error in get_reservations: {error_msg}")
         return jsonify({'reservations': [], 'error': str(e)})
 
-from flask import jsonify
-
-@app.route('/api/reports', methods=['GET'])
-def get_reports():
-    try:
-        conn = sqlite3.connect(DB_PATH)
-        cursor = conn.cursor()
-        cursor.execute("SELECT status, COUNT(*) FROM reservations GROUP BY status")
-        status_counts = dict(cursor.fetchall())
-
-        cursor.execute("SELECT SUM(total_cost) FROM reservations WHERE status = 'confirmed'")
-        total_revenue = cursor.fetchone()[0] or 0
-
-        report_data = {
-            "pending_count": status_counts.get('pending', 0),
-            "confirmed_count": status_counts.get('confirmed', 0),
-            "ongoing_count": status_counts.get('ongoing', 0),
-            "finished_count": status_counts.get('finished', 0),
-            "cancelled_count": status_counts.get('cancelled', 0),
-            "total_revenue": total_revenue
-        }
-        conn.close()
-        return jsonify(report_data)
-    except Exception as e:
-        app.logger.error(f"Error in get_reports: {str(e)}")
-        return jsonify({
-            "pending_count": 0,
-            "confirmed_count": 0,
-            "ongoing_count": 0,
-            "finished_count": 0,
-            "cancelled_count": 0,
-            "total_revenue": 0
-        })
-
-@app.route('/api/financial-reports', methods=['GET'])
-def get_financial_reports():
-    try:
-        conn = sqlite3.connect(DB_PATH)
-        cursor = conn.cursor()
-
-        cursor.execute("SELECT SUM(total_cost) FROM reservations")
-        total_revenue = cursor.fetchone()[0] or 0
-
-        cursor.execute("SELECT AVG(total_cost) FROM reservations")
-        avg_booking_value = cursor.fetchone()[0] or 0
-
-        cursor.execute("SELECT COUNT(*) FROM reservations")
-        total_bookings = cursor.fetchone()[0] or 0
-
-        cursor.execute("SELECT status, SUM(total_cost) FROM reservations GROUP BY status")
-        revenue_by_status_raw = cursor.fetchall()
-        revenue_by_status = {row[0]: row[1] for row in revenue_by_status_raw}
-
-        conn.close()
-
-        financial_report = {
-            "total_revenue": total_revenue,
-            "average_booking_value": avg_booking_value,
-            "total_bookings": total_bookings,
-            "revenue_by_status": revenue_by_status
-        }
-        return jsonify(financial_report)
-    except Exception as e:
-        app.logger.error(f"Error in get_financial_reports: {str(e)}")
-        return jsonify({
-            "total_revenue": 0,
-            "average_booking_value": 0,
-            "total_bookings": 0,
-            "revenue_by_status": {}
-        })
-
-if __name__ == '__main__':
-    os.makedirs('data', exist_ok=True)
-    os.makedirs('db', exist_ok=True)
-    app.run(debug=True, host='0.0.0.0', port=5000)
-
 @app.route('/api/reports', methods=['GET'])
 def get_reports():
     try:
@@ -635,3 +600,11 @@ def get_reports():
         error_msg = traceback.format_exc()
         app.logger.error(f"Error in get_reports: {error_msg}")
         return jsonify({"error": str(e)})
+
+if __name__ == '__main__':
+    import os
+    os.makedirs('data', exist_ok=True)
+    os.makedirs('db', exist_ok=True)
+    # Use Gunicorn for production deployment
+    # For local testing, you can still use app.run()
+    app.run(debug=True, host='0.0.0.0', port=5000)
